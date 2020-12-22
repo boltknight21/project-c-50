@@ -12,6 +12,7 @@ NOTES:
 
 body{
     background-color: lightgrey;
+    margin:1px ;
 }
 .header{
 color:peachpuff;
@@ -24,24 +25,24 @@ text-align: center;
 display:flex;
 justify-content:space-between;
 background-color:black;
+padding:15px ;
 font-size:20px;
-font-family:lobster;
+font-family:sans-serif;
 font-weight:500;
 color:cornsilk;
 }
 
 
 
-.grid{
-    display :flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    margin: 80px; 
+.grid img{
+    border: 2px solid #000001;
+    border-radius:50px ;
 }
 .origami{
-    border-radius: 2px solid black;
+    border-radius: 2opx solid black;
     background-color:aliceblue;
-
+    padding:30px ;
+    margin: 25px;
     width:320px;
     font-family: fantasy;
 }
